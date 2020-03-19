@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tasty" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tasty" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tasty" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="../AsteroidsRecovery-master/Game1/AsteroidEnemy.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/AsteroidEnemy.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/BaseEnemy.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/BaseEnemy.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Bullet.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Common.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Constants.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/EnemyDust.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/EnemyDust.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Game.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Game.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/GameController.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/GameController.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/GraphicObject.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/MachineGun.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/MachineGun.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Main.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Player.cpp" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Player.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Position.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Statistics.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/Vertex.h" />
+		<Unit filename="../AsteroidsRecovery-master/Game1/glut.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
